@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "faza",
+      "email": "faza@gmail.com",
+      "password": "pass123",
+      "role": "admin",
+      "phoneNumber": "2345678912",
+      "address": "Jl. Rumah"
+    },
+    {
+      "id": 2,
+      "username": "dapo",
+      "email": "dapo@gmail.com",
+      "password": "pass123",
+      "role": "user",
+      "phoneNumber": "2345678912",
+      "address": "Jl. Rumah"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "SAW X",
+      "slug": "SAW-X",
+      "synopsis": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+      "trailerUrl": "https://www.youtube.com/watch?v=t3PzUo4P21c",
+      "imgUrl": "https://image.tmdb.org/t/p/w500/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
+      "rating": 7.3,
+      "genreId": 1,
+      "authorId": 1,
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    },
+    {
+      "id": 2,
+      "title": "Gran Turismo",
+      "slug": "Gran-Turismo",
+      "synopsis": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
+      "trailerUrl": "https://www.youtube.com/watch?v=GVPzGBvPrzw",
+      "imgUrl": "https://image.tmdb.org/t/p/w500/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg",
+      "rating": 8,
+      "genreId": 2,
+      "authorId": 1,
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    },
+    {
+      "title": "Retribution",
+      "synopsis": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
+      "trailerUrl": "https://www.youtube.com/watch?v=jzQn0-WH4WM",
+      "imgUrl": "https://image.tmdb.org/t/p/w500/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
+      "rating": "7",
+      "genreId": "1",
+      "slug": "Retribution",
+      "authorId": 1,
+      "createdAt": "2023-10-31T14:57:20.585Z",
+      "updatedAt": "2023-10-31T14:57:20.585Z",
+      "id": 3
+    },
+    {
+      "title": "The Equalizer 3",
+      "synopsis": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+      "trailerUrl": "https://www.youtube.com/watch?v=19ikl8vy4zs",
+      "imgUrl": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "rating": "7.4",
+      "genreId": "3",
+      "slug": "The-Equalizer-3",
+      "authorId": 1,
+      "createdAt": "2023-10-31T16:03:43.024Z",
+      "updatedAt": "2023-10-31T16:03:43.024Z",
+      "id": 4
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Horror",
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    },
+    {
+      "id": 2,
+      "name": "Adventure",
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    },
+    {
+      "id": 3,
+      "name": "Action",
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    }
+  ],
+  "casts": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "name": "Tobin Bell",
+      "profilePict": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tobin_Bell_At_For_The_Love_Of_Horror_2019_%28cropped_3%29.jpg/220px-Tobin_Bell_At_For_The_Love_Of_Horror_2019_%28cropped_3%29.jpg",
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    },
+    {
+      "id": 2,
+      "movieId": 2,
+      "name": "Archie Madekwe",
+      "profilePict": "https://m.media-amazon.com/images/M/MV5BOWE3M2ViODctMmJlNC00ZTJmLWEzZjYtZjNmMDg5NGY0YTViXkEyXkFqcGdeQXVyNTAyNDMwNTk@._V1_.jpg",
+      "createdAt": "2023-10-30T08:18:00.640Z",
+      "updatedAt": "2023-10-30T08:18:00.640Z"
+    }
+  ]
+}

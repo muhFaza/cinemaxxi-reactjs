@@ -1,0 +1,53 @@
+.main-detail .desc-box .desc-label .c-labelss {
+  width: 53px;
+  height: 53px;
+  /* float: left; */
+  background-color: #0d7e40;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 5px;
+}
+.main-detail .desc-box .desc-label .c-labelss img {
+  max-width: 100%;
+  float: none;
+  margin-left: 0;
+  margin-top: 15px;
+}
+.main-detail .desc-box .desc-label .c-labelss.d-red {
+  background-color: #be1e2d;
+}
+.main-detail .desc-box .desc-label .c-labelss.d-blue {
+  background-color: #1b578a;
+}
+
+.time-cinema-theater {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.time-cinema-theater li {
+  width: 60px;
+  display: inline-block;
+  margin-right: 14px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  text-align: center;
+  padding: 1px 0;
+}
+
+.active {
+  color: #006563;
+  border: 1px solid #006563;
+}
+
+.closing {
+  color: grey;
+  border: 1px solid grey;
+}
+h3 {
+	color: #000000;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 30px 0;
+	font-family: 'Montserrat', sans-serif;
+}

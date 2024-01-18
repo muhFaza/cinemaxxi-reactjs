@@ -1,0 +1,32 @@
+{
+  "hash": "91183bb6",
+  "browserHash": "2bc8310f",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "cdab4159",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ec74c0ed",
+      "needsInterop": true
+    },
+    "bootstrap/dist/js/bootstrap.min.js": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "file": "bootstrap_dist_js_bootstrap__min__js.js",
+      "fileHash": "a3d83602",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-QNXMYWC2": {
+      "file": "chunk-QNXMYWC2.js"
+    },
+    "chunk-CF3WPAMV": {
+      "file": "chunk-CF3WPAMV.js"
+    }
+  }
+}
